@@ -33,6 +33,8 @@ def calculator():
             elif choice == 4:
                 if b == 0:
                     print("Error: Division by zero is not allowed.")
+                elif a == 0:
+                    print("Error: Division by zero is not allowed.")
                 else:
                     print(f"Result: {a} / {b} = {a / b}")
             elif choice == 5:
